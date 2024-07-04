@@ -1,0 +1,39 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  color: #1b1b1b;
+}
+ body{
+  display: grid;
+  background-color:#93b81a;
+  place-items: center;
+  min-height: 100vh;   
+} 
+
+
+.App{
+  text-align: center;
+  background-color: white;
+}
+.center-stepper
+{
+  justify-content: center;
+  align-items: center;
+}
+.App.header{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px+2vmin);
+}
+.Data li{
+  list-style: none;
+  margin: 5px;
+  font-size: 14;
+}
+.Data h3{
+  font-size: 16px;
+  font-weight: 700px;
+}
