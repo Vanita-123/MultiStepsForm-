@@ -8,29 +8,27 @@ function SecondStep() {
     <>
       <div>
         <div>
-          <TextField
-            label="Address Line1"
+        <TextField
+            label="AddressLine1"
             margin="normal"
             variant="outlined"
             color="secondary"
-            value={UserData["AdressLine1"] || ""}
-            onChange={(e) =>
-              setUserData({ ...UserData, AdressLine1: e.target.value })
-            }
-          />
+            required
+            value={UserData["AddressLine1"] || ""}
+            onChange={(e) => setUserData({ ...UserData, AddressLine1: e.target.value })}/>
         </div>
         <div>
-        <TextField
-            label="Address Line2"
+         <TextField
+            label="AddressLine2"
             margin="normal"
             variant="outlined"
             color="secondary"
-            value={UserData["AdressLine2"] || ""}
-            onChange={(e) =>
-              setUserData({ ...UserData, AdressLine2: e.target.value })
-            }
-          />
+            
+            value={UserData["AddressLine2"] || ""}
+            onChange={(e) => setUserData({ ...UserData, AddressLine2: e.target.value })}/>
+
         </div>
+                
         <div>
           <TextField
             label="City"
